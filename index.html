@@ -4,11 +4,26 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DaCode</title>
+    <title>DaCode - Welcome</title>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   </head>
-  <body>
-    <div id="root"></div>
-<p> Hello World!</p>
+  <body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-indigo-500 selection:text-white">
+    <div id="root">
+      <!-- Splash Screen / Initial Welcome State -->
+      <div class="min-h-screen flex flex-col items-center justify-center p-4 text-center">
+        <h1 class="text-6xl md:text-7xl font-extrabold mb-6 tracking-tight">
+          <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400">
+            DaCode
+          </span>
+        </h1>
+        <p class="text-slate-400 text-lg md:text-xl font-light tracking-wide animate-pulse">
+          Loading your experience...
+        </p>
+      </div>
+    </div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
